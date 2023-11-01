@@ -1,0 +1,26 @@
+<html>
+<head>
+  <title>Cooking Blog</title>
+  <link rel="stylesheet" type="text/css" href="/style.css">
+</head>
+<body>
+  <h1>Welcome to the Cooking Blog</h1>
+  <h2>All Blog Posts</h2>
+  <ul>
+    <% blogPosts.forEach(post => { %>
+      <li>
+        <h3><%= post.title %></h3>
+        <p>
+          <% if (post.content.length > 100) { %>
+            <%= post.content.substring(0, 100) %>
+            <a href="/blog/<%= post.id %>">Read More</a>
+          <% } else { %>
+            <%= post.content %>
+          <% } %>
+        </p>
+      </li>
+    <% }); %>
+  </ul>
+  <a href="/add">Add a New Blog Post</a>
+</body>
+</html>

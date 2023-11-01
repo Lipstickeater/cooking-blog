@@ -1,0 +1,108 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+  
+  h1 {
+    font-size: 30px;
+    color: #009688; /* Orange color */
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #009688; /* Teal color */
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  li {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Styling for the "Add New Blog Post" page */
+  form {
+    margin-top: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #009688;
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Slightly darker blue on hover */
+  }
+  
+  /* Styling for the individual blog post page */
+  #blog-content {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for the "Back to All Blog Posts" link */
+  .back-link {
+    display: block;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #009688; /* Teal color */
+  }
+  
+  .back-link:hover {
+    color: #007BFF; /* Blue color on hover */
+  }
+  
