@@ -1,4 +1,4 @@
-/* Reset some default browser styles */
+
 body, h1, h2, h3, ul, li {
     margin: 0;
     padding: 0;
@@ -21,13 +21,13 @@ body, h1, h2, h3, ul, li {
   
   h1 {
     font-size: 30px;
-    color: #009688; /* Orange color */
+    color: #009688; 
     margin-bottom: 20px;
   }
   
   h2 {
     font-size: 24px;
-    color: #009688; /* Teal color */
+    color: #009688; 
     margin-bottom: 10px;
   }
   
@@ -53,7 +53,7 @@ body, h1, h2, h3, ul, li {
     text-decoration: underline;
   }
   
-  /* Styling for the "Add New Blog Post" page */
+ 
   form {
     margin-top: 20px;
   }
@@ -84,25 +84,25 @@ body, h1, h2, h3, ul, li {
   }
   
   button:hover {
-    background-color: #0056b3; /* Slightly darker blue on hover */
+    background-color: #0056b3; 
   }
   
-  /* Styling for the individual blog post page */
+  
   #blog-content {
     font-size: 20px;
     color: #333;
     margin-bottom: 20px;
   }
   
-  /* Styling for the "Back to All Blog Posts" link */
+ 
   .back-link {
     display: block;
     margin-top: 20px;
     font-weight: bold;
-    color: #009688; /* Teal color */
+    color: #009688; 
   }
   
   .back-link:hover {
-    color: #007BFF; /* Blue color on hover */
+    color: #007BFF; 
   }
   
